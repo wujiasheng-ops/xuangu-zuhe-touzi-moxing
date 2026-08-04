@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-08-02T15:02:48.481198",
+  "mode": "quick_test",
+  "selected_tickers": [
+    "NVDA",
+    "TSLA",
+    "GOOGL",
+    "XOM",
+    "GS",
+    "ABBV",
+    "AAPL",
+    "KO",
+    "JNJ",
+    "UNH"
+  ],
+  "weights": {
+    "NVDA": 0.15,
+    "TSLA": 0.14996,
+    "GOOGL": 0.13177,
+    "XOM": 0.12692,
+    "GS": 0.10253,
+    "ABBV": 0.09669,
+    "AAPL": 0.08483,
+    "KO": 0.05789,
+    "JNJ": 0.05277,
+    "UNH": 0.04664
+  },
+  "sectors": {
+    "NVDA": "Information Technology",
+    "TSLA": "Consumer Discretionary",
+    "GOOGL": "Communication Services",
+    "XOM": "Energy",
+    "GS": "Financials",
+    "ABBV": "Health Care",
+    "AAPL": "Information Technology",
+    "KO": "Consumer Staples",
+    "JNJ": "Health Care",
+    "UNH": "Health Care"
+  },
+  "momentum": {
+    "NVDA": 26.476453226269165,
+    "TSLA": 16.22392373214919,
+    "GOOGL": 52.42507887205634,
+    "XOM": 29.987858322483323,
+    "GS": 45.038646333820765,
+    "ABBV": 19.48081947264846,
+    "AAPL": 31.925443347577453,
+    "KO": 26.330932477859015,
+    "JNJ": 46.5457877653968,
+    "UNH": 38.239018680121426
+  },
+  "optimization": {
+    "method": "max_sharpe",
+    "ret": 0.3177913185440267,
+    "vol": 1106.848853336841,
+    "sharpe": 0.00024194027733480543,
+    "max_weight_bound": 0.15,
+    "dropped_low_weight": {},
+    "n_stage2": 10,
+    "n_final": 10,
+    "weight_floor_applied": false,
+    "turnover_penalty_applied": true,
+    "turnover_lambda": 0.0015,
+    "turnover_shrink_gamma": 0.05,
+    "turnover_before": 0.000238,
+    "turnover_after": 1.1e-05,
+    "deadband": {
+      "deadband_threshold": 0.025,
+      "locked": {
+        "NVDA": {
+          "current": 0.15,
+          "target": 0.149999,
+          "delta": -1e-06
+        },
+        "TSLA": {
+          "current": 0.14996,
+          "target": 0.149956,
+          "delta": -4e-06
+        },
+        "GOOGL": {
+          "current": 0.13177,
+          "target": 0.13177,
+          "delta": 0.0
+        },
+        "XOM": {
+          "current": 0.12692,
+          "target": 0.12692,
+          "delta": 0.0
+        },
+        "GS": {
+          "current": 0.10253,
+          "target": 0.102535,
+          "delta": 5e-06
+        },
+        "ABBV": {
+          "current": 0.09669,
+          "target": 0.09669,
+          "delta": 0.0
+        },
+        "AAPL": {
+          "current": 0.08483,
+          "target": 0.08483,
+          "delta": 0.0
+        },
+        "KO": {
+          "current": 0.05789,
+          "target": 0.05789,
+          "delta": 0.0
+        },
+        "JNJ": {
+          "current": 0.05277,
+          "target": 0.05277,
+          "delta": 0.0
+        },
+        "UNH": {
+          "current": 0.04664,
+          "target": 0.04664,
+          "delta": 0.0
+        }
+      },
+      "adjusted": true,
+      "pre_turnover": 1.0000000000010001e-05,
+      "post_turnover": 0.0
+    }
+  }
+}

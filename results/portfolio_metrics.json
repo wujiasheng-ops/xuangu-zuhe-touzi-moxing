@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-08-02T19:02:15.070996",
+  "in_sample_metrics": {
+    "total_return": 6.361049637366969,
+    "annual_return": 0.3947294066413367,
+    "max_drawdown": -0.34143238704155915,
+    "calmar_ratio": 1.1560983129385738,
+    "sharpe_ratio": 1.5097537269780315,
+    "volatility": 0.2401742852611231,
+    "n_weeks": 312
+  },
+  "metrics_2022": {
+    "total_return": 0.03511998891905255,
+    "annual_return": 0.03511998891905255,
+    "max_drawdown": -0.18336434246992986,
+    "calmar_ratio": 0.19153118019558202,
+    "sharpe_ratio": 0.26104066159810774,
+    "volatility": 0.2919757832971942,
+    "n_weeks": 52
+  },
+  "walk_forward_metrics": {
+    "n_windows": 2,
+    "method": "mean_of_disjoint_oos_windows",
+    "total_return": 0.562124835030783,
+    "annual_return": 0.5767511480899215,
+    "max_drawdown": -0.25912712540953614,
+    "calmar_ratio": 2.004029276813484,
+    "sharpe_ratio": 1.309883078092143,
+    "volatility": 0.33968443546349064
+  },
+  "walk_forward_metrics_stitched": {
+    "total_return": 1.3014965821576459,
+    "annual_return": 0.5295169285030557,
+    "max_drawdown": -0.3959806747943957,
+    "calmar_ratio": 1.3372292190218518,
+    "sharpe_ratio": 1.3507328407230021,
+    "volatility": 0.36425191510537325,
+    "n_weeks": 102,
+    "method": "stitched_compound_oos_returns"
+  },
+  "transaction_costs": {
+    "commission_bps": 10,
+    "slippage_bps": 5,
+    "method": "turnover_based_sum_abs_delta_w"
+  },
+  "note": "walk_forward_metrics \u4e3a\u5404\u72ec\u7acb OOS \u6d4b\u8bd5\u7a97\u6307\u6807\u5747\u503c\uff1bwalk_forward_metrics_stitched \u4e3a\u62fc\u63a5\u6d4b\u8bd5\u7a97\u51c0\u503c\u540e\u7684\u590d\u5408\u5e74\u5316\u8868\u73b0"
+}

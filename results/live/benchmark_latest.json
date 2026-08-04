@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-08-02T21:06:37.100382",
+  "trading_env": "PROD",
+  "period_start": "2026-08-02T18:01:52.070213",
+  "period_end": "2026-08-02T21:06:37.100382",
+  "strategy_return": null,
+  "spy_return": 0.010961845778870494,
+  "alpha": null,
+  "strategy_equity": 100000.0,
+  "spy_price": 747.030029296875,
+  "benchmark": "SPY",
+  "beat_spy": false
+}

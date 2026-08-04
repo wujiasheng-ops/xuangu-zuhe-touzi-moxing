@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-08-02T20:27:54.254778",
+  "mode": "quick_test",
+  "selected_tickers": [
+    "NVDA",
+    "TSLA",
+    "GOOGL",
+    "XOM",
+    "GS",
+    "ABBV",
+    "AAPL",
+    "KO",
+    "JNJ",
+    "UNH"
+  ],
+  "weights": {
+    "NVDA": 0.15000284999715002,
+    "TSLA": 0.14986285013714987,
+    "GOOGL": 0.1320928679071321,
+    "XOM": 0.12726287273712725,
+    "GS": 0.10131189868810132,
+    "ABBV": 0.09687190312809688,
+    "AAPL": 0.08480191519808482,
+    "KO": 0.058050941949058056,
+    "JNJ": 0.05291094708905292,
+    "UNH": 0.046830953169046834
+  },
+  "sectors": {
+    "NVDA": "Information Technology",
+    "TSLA": "Consumer Discretionary",
+    "GOOGL": "Communication Services",
+    "XOM": "Energy",
+    "GS": "Financials",
+    "ABBV": "Health Care",
+    "AAPL": "Information Technology",
+    "KO": "Consumer Staples",
+    "JNJ": "Health Care",
+    "UNH": "Health Care"
+  },
+  "momentum": {
+    "NVDA": 26.476441656112076,
+    "TSLA": 16.22392373214919,
+    "GOOGL": 52.42507887205634,
+    "XOM": 29.987849040177,
+    "GS": 45.03865850187116,
+    "ABBV": 19.480828315758746,
+    "AAPL": 31.925434925375747,
+    "KO": 26.330932477859015,
+    "JNJ": 46.5457877653968,
+    "UNH": 38.239018680121426
+  },
+  "optimization": {
+    "method": "max_sharpe",
+    "ret": 0.31767272563921845,
+    "vol": 1100.0035367098594,
+    "sharpe": 0.0002433380591119142,
+    "max_weight_bound": 0.15,
+    "dropped_low_weight": {},
+    "n_stage2": 10,
+    "n_final": 10,
+    "weight_floor_applied": false,
+    "turnover_penalty_applied": false
+  }
+}

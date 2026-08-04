@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-08-02T21:06:37.105419",
+  "in_sample_metrics": {
+    "total_return": 6.361050279866119,
+    "annual_return": 0.3947294269308441,
+    "max_drawdown": -0.3414323555193049,
+    "calmar_ratio": 1.1560984790983753,
+    "sharpe_ratio": 1.5097539118512315,
+    "volatility": 0.24017426182085197,
+    "n_weeks": 312
+  },
+  "metrics_2022": {
+    "total_return": 0.03512008779910514,
+    "annual_return": 0.03512008779910514,
+    "max_drawdown": -0.1833642999346722,
+    "calmar_ratio": 0.1915317638799782,
+    "sharpe_ratio": 0.2610409812561806,
+    "volatility": 0.2919757171985465,
+    "n_weeks": 52
+  },
+  "walk_forward_metrics": {
+    "n_windows": 2,
+    "method": "mean_of_disjoint_oos_windows",
+    "total_return": 0.5621248880678285,
+    "annual_return": 0.5767512028558223,
+    "max_drawdown": -0.2591271054075964,
+    "calmar_ratio": 2.0040296257149874,
+    "sharpe_ratio": 1.309883079693297,
+    "volatility": 0.33968445858553487
+  },
+  "walk_forward_metrics_stitched": {
+    "total_return": 1.3014967106817474,
+    "annual_return": 0.5295169720473942,
+    "max_drawdown": -0.3959806579372272,
+    "calmar_ratio": 1.33722938591444,
+    "sharpe_ratio": 1.3507328343400495,
+    "volatility": 0.3642519448348791,
+    "n_weeks": 102,
+    "method": "stitched_compound_oos_returns"
+  },
+  "transaction_costs": {
+    "commission_bps": 10,
+    "slippage_bps": 5,
+    "method": "turnover_based_sum_abs_delta_w"
+  },
+  "benchmark": {
+    "timestamp": "2026-08-02T21:06:37.100382",
+    "trading_env": "PROD",
+    "period_start": "2026-08-02T18:01:52.070213",
+    "period_end": "2026-08-02T21:06:37.100382",
+    "strategy_return": null,
+    "spy_return": 0.010961845778870494,
+    "alpha": null,
+    "strategy_equity": 100000.0,
+    "spy_price": 747.030029296875,
+    "benchmark": "SPY",
+    "beat_spy": false
+  },
+  "note": "walk_forward_metrics \u4e3a\u5404\u72ec\u7acb OOS \u6d4b\u8bd5\u7a97\u6307\u6807\u5747\u503c\uff1bwalk_forward_metrics_stitched \u4e3a\u62fc\u63a5\u6d4b\u8bd5\u7a97\u51c0\u503c\u540e\u7684\u590d\u5408\u5e74\u5316\u8868\u73b0"
+}

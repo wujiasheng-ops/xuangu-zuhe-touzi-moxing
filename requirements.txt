@@ -1,0 +1,12 @@
+yfinance>=1.0
+pandas>=2.0
+numpy>=1.20
+requests>=2.28
+beautifulsoup4>=4.11
+lxml>=4.9
+scipy>=1.8
+scikit-learn>=1.0
+apscheduler>=3.10
+PyPortfolioOpt>=1.5
+# 可选：Alpaca 实盘。与部分 yfinance 版本在 websockets 上冲突，勿与上面一并 pip；
+# 若需要：`pip install alpaca-trade-api` 或使用 conda 单独环境。

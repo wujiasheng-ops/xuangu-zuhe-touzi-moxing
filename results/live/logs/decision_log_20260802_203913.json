@@ -1,0 +1,289 @@
+{
+  "run_id": "20260802_203913",
+  "trading_env": "PROD",
+  "timestamp": "2026-08-02T20:39:13.481761",
+  "source": "main_pipeline",
+  "selected_tickers": [
+    "TER",
+    "GLW",
+    "VRT",
+    "CAT",
+    "HPE",
+    "VLO",
+    "CF",
+    "CNC",
+    "MRNA",
+    "JBHT"
+  ],
+  "weights": {
+    "TER": 0.1,
+    "GLW": 0.1289837545365148,
+    "VRT": 0.1289837545365148,
+    "CAT": 0.1289837545365148,
+    "HPE": 0.1289837545365148,
+    "VLO": 0.1289837545365148,
+    "CF": 0.1289837545365148,
+    "CNC": 0.05983900057767528,
+    "MRNA": 0.03649276142011104,
+    "JBHT": 0.02976571078312483
+  },
+  "n_decisions": 37,
+  "decisions": [
+    {
+      "ticker": "TER",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "MRNA",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "GLW",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "VRT",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "CNC",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "CAT",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "HPE",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "JBHT",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "VLO",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "CF",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "PORTFOLIO",
+      "action": "TURNOVER_SHRINK_APPLIED",
+      "reason": "Turnover 0.252 → 0.014 with γ=0.05.",
+      "turnover_before": 0.2521769457418204,
+      "turnover_after": 0.013976264638142367
+    },
+    {
+      "ticker": "GLW",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.12%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.128984,
+      "current_weight_pct": "12.90%",
+      "target_weight_raw": 0.130148,
+      "target_weight_raw_pct": "13.01%"
+    },
+    {
+      "ticker": "VRT",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.12%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.128984,
+      "current_weight_pct": "12.90%",
+      "target_weight_raw": 0.130148,
+      "target_weight_raw_pct": "13.01%"
+    },
+    {
+      "ticker": "CAT",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.12%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.128984,
+      "current_weight_pct": "12.90%",
+      "target_weight_raw": 0.130148,
+      "target_weight_raw_pct": "13.01%"
+    },
+    {
+      "ticker": "HPE",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.12%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.128984,
+      "current_weight_pct": "12.90%",
+      "target_weight_raw": 0.130148,
+      "target_weight_raw_pct": "13.01%"
+    },
+    {
+      "ticker": "VLO",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.12%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.128984,
+      "current_weight_pct": "12.90%",
+      "target_weight_raw": 0.130148,
+      "target_weight_raw_pct": "13.01%"
+    },
+    {
+      "ticker": "CF",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.12%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.128984,
+      "current_weight_pct": "12.90%",
+      "target_weight_raw": 0.130148,
+      "target_weight_raw_pct": "13.01%"
+    },
+    {
+      "ticker": "TER",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.69%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.1,
+      "current_weight_pct": "10.00%",
+      "target_weight_raw": 0.093065,
+      "target_weight_raw_pct": "9.31%"
+    },
+    {
+      "ticker": "CNC",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.059839,
+      "current_weight_pct": "5.98%",
+      "target_weight_raw": 0.059839,
+      "target_weight_raw_pct": "5.98%"
+    },
+    {
+      "ticker": "MRNA",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.036493,
+      "current_weight_pct": "3.65%",
+      "target_weight_raw": 0.036493,
+      "target_weight_raw_pct": "3.65%"
+    },
+    {
+      "ticker": "JBHT",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.01%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.029766,
+      "current_weight_pct": "2.98%",
+      "target_weight_raw": 0.029713,
+      "target_weight_raw_pct": "2.97%"
+    },
+    {
+      "ticker": "CVNA",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "VST",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "COIN",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "NRG",
+      "action": "SKIPPED_SEED_HIGH_CORR",
+      "reason": "High corr with protected holding VST.",
+      "competitor_ticker": "VST"
+    },
+    {
+      "ticker": "CRWD",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "CEG",
+      "action": "SKIPPED_SEED_HIGH_CORR",
+      "reason": "High corr with protected holding VST.",
+      "competitor_ticker": "VST"
+    },
+    {
+      "ticker": "VRT",
+      "action": "SKIPPED_SEED_HIGH_CORR",
+      "reason": "High corr with protected holding VST.",
+      "competitor_ticker": "VST"
+    },
+    {
+      "ticker": "NVDA",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "WSM",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "PORTFOLIO",
+      "action": "TURNOVER_SHRINK_APPLIED",
+      "reason": "Turnover 0.582 → 0.520 with γ=0.05.",
+      "turnover_before": 0.581586,
+      "turnover_after": 0.5202080801374755
+    },
+    {
+      "ticker": "VST",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.149701,
+      "current_weight_pct": "14.97%",
+      "target_weight_raw": 0.1497,
+      "target_weight_raw_pct": "14.97%"
+    },
+    {
+      "ticker": "NVDA",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.149701,
+      "current_weight_pct": "14.97%",
+      "target_weight_raw": 0.1497,
+      "target_weight_raw_pct": "14.97%"
+    },
+    {
+      "ticker": "WSM",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.149701,
+      "current_weight_pct": "14.97%",
+      "target_weight_raw": 0.1497,
+      "target_weight_raw_pct": "14.97%"
+    },
+    {
+      "ticker": "CRWD",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.028693,
+      "current_weight_pct": "2.87%",
+      "target_weight_raw": 0.028693,
+      "target_weight_raw_pct": "2.87%"
+    },
+    {
+      "ticker": "CVNA",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.000998,
+      "current_weight_pct": "0.10%",
+      "target_weight_raw": 0.001,
+      "target_weight_raw_pct": "0.10%"
+    },
+    {
+      "ticker": "COIN",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.000998,
+      "current_weight_pct": "0.10%",
+      "target_weight_raw": 0.001,
+      "target_weight_raw_pct": "0.10%"
+    }
+  ]
+}

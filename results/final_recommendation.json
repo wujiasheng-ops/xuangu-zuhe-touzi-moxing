@@ -1,0 +1,140 @@
+{
+  "generation_date": "2026-08-02T19:02:15.835304",
+  "source_run_timestamp": "2026-08-02T19:02:15.066641",
+  "algorithm_name": "自动选股与配置算法",
+  "version": "1.1",
+  "data_source": "Yahoo Finance (6年周线, auto_adjust)",
+  "stage2_tickers": [
+    "TER",
+    "MRNA",
+    "GLW",
+    "VRT",
+    "CNC",
+    "CAT",
+    "HPE",
+    "JBHT",
+    "VLO",
+    "CF"
+  ],
+  "selected_stocks": [
+    {
+      "ticker": "TER",
+      "weight": 0.1,
+      "sector": "Information Technology",
+      "momentum": 199.6324386919448
+    },
+    {
+      "ticker": "GLW",
+      "weight": 0.1289837545365148,
+      "sector": "Information Technology",
+      "momentum": 169.97160588340338
+    },
+    {
+      "ticker": "VRT",
+      "weight": 0.1289837545365148,
+      "sector": "Industrials",
+      "momentum": 157.42839641035798
+    },
+    {
+      "ticker": "CAT",
+      "weight": 0.1289837545365148,
+      "sector": "Industrials",
+      "momentum": 126.71924383206313
+    },
+    {
+      "ticker": "HPE",
+      "weight": 0.1289837545365148,
+      "sector": "Information Technology",
+      "momentum": 110.67631154570832
+    },
+    {
+      "ticker": "VLO",
+      "weight": 0.1289837545365148,
+      "sector": "Energy",
+      "momentum": 82.13794946729232
+    },
+    {
+      "ticker": "CF",
+      "weight": 0.1289837545365148,
+      "sector": "Materials",
+      "momentum": 40.539777640870035
+    },
+    {
+      "ticker": "CNC",
+      "weight": 0.05983900057767528,
+      "sector": "Health Care",
+      "momentum": 132.40165472039834
+    },
+    {
+      "ticker": "MRNA",
+      "weight": 0.03649276142011104,
+      "sector": "Health Care",
+      "momentum": 171.55926133863406
+    },
+    {
+      "ticker": "JBHT",
+      "weight": 0.02976571078312483,
+      "sector": "Industrials",
+      "momentum": 96.04542430161028
+    }
+  ],
+  "weight_adjustments": {},
+  "portfolio_metrics": {
+    "in_sample": {
+      "total_return": 6.361049637366969,
+      "annual_return": 0.3947294066413367,
+      "max_drawdown": -0.34143238704155915,
+      "calmar_ratio": 1.1560983129385738,
+      "sharpe_ratio": 1.5097537269780315,
+      "volatility": 0.2401742852611231,
+      "n_weeks": 312
+    },
+    "walk_forward": {
+      "n_windows": 2,
+      "method": "mean_of_disjoint_oos_windows",
+      "total_return": 0.562124835030783,
+      "annual_return": 0.5767511480899215,
+      "max_drawdown": -0.25912712540953614,
+      "calmar_ratio": 2.004029276813484,
+      "sharpe_ratio": 1.309883078092143,
+      "volatility": 0.33968443546349064
+    },
+    "preferred": "walk_forward",
+    "transaction_costs": {
+      "commission_bps": 10,
+      "slippage_bps": 5,
+      "method": "turnover_based_sum_abs_delta_w"
+    }
+  },
+  "backtest_2022_crisis": {
+    "total_return": 0.03511998891905255,
+    "annual_return": 0.03511998891905255,
+    "max_drawdown": -0.18336434246992986,
+    "calmar_ratio": 0.19153118019558202,
+    "sharpe_ratio": 0.26104066159810774,
+    "volatility": 0.2919757832971942,
+    "n_weeks": 52
+  },
+  "sector_distribution": {
+    "count": 5,
+    "sectors": {
+      "Information Technology": 3,
+      "Industrials": 3,
+      "Energy": 1,
+      "Materials": 1,
+      "Health Care": 2
+    }
+  },
+  "correlation_matrix_summary": {
+    "max_abs_correlation": 0.5608964564492606,
+    "min_correlation": -0.1827687590503827,
+    "all_below_threshold": true,
+    "status": "✓ 所有股票对 |ρ|≤阈值"
+  },
+  "risk_analysis": {
+    "correlation_risk": [],
+    "sector_concentration": [],
+    "momentum_risk": [],
+    "backtest_performance": []
+  }
+}

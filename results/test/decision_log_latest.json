@@ -1,0 +1,130 @@
+{
+  "run_id": "20260802_202750",
+  "trading_env": "TEST",
+  "timestamp": "2026-08-02T20:27:50.742291",
+  "source": "quick_test",
+  "mode": "quick_test",
+  "n_decisions": 18,
+  "decisions": [
+    {
+      "ticker": "TSLA",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "WFC",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "META",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "NVDA",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "WMT",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "GOOGL",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "KO",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "ABBV",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "AAPL",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "UNH",
+      "action": "SEEDED_PROTECTED_HOLDING",
+      "reason": "Existing holding pre-seeded under holdings priority."
+    },
+    {
+      "ticker": "PORTFOLIO",
+      "action": "TURNOVER_SHRINK_APPLIED",
+      "reason": "Turnover 0.239 → 0.110 with γ=0.05.",
+      "turnover_before": 0.2388,
+      "turnover_after": 0.1097490468326684
+    },
+    {
+      "ticker": "TSLA",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.15,
+      "current_weight_pct": "15.00%",
+      "target_weight_raw": 0.15,
+      "target_weight_raw_pct": "15.00%"
+    },
+    {
+      "ticker": "NVDA",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.15,
+      "current_weight_pct": "15.00%",
+      "target_weight_raw": 0.15,
+      "target_weight_raw_pct": "15.00%"
+    },
+    {
+      "ticker": "WFC",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.12047,
+      "current_weight_pct": "12.05%",
+      "target_weight_raw": 0.12047,
+      "target_weight_raw_pct": "12.05%"
+    },
+    {
+      "ticker": "GOOGL",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.10234,
+      "current_weight_pct": "10.23%",
+      "target_weight_raw": 0.102335,
+      "target_weight_raw_pct": "10.23%"
+    },
+    {
+      "ticker": "ABBV",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.09804,
+      "current_weight_pct": "9.80%",
+      "target_weight_raw": 0.09804,
+      "target_weight_raw_pct": "9.80%"
+    },
+    {
+      "ticker": "AAPL",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.08689,
+      "current_weight_pct": "8.69%",
+      "target_weight_raw": 0.08689,
+      "target_weight_raw_pct": "8.69%"
+    },
+    {
+      "ticker": "KO",
+      "action": "SKIPPED_REBALANCE",
+      "reason": "Weight diff (0.00%) < DEADBAND_THRESHOLD (2.5%). Locked.",
+      "current_weight": 0.05429,
+      "current_weight_pct": "5.43%",
+      "target_weight_raw": 0.054292,
+      "target_weight_raw_pct": "5.43%"
+    }
+  ]
+}

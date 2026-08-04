@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-08-02T21:06:36.664196",
+  "stage2_tickers": [
+    "TER",
+    "MRNA",
+    "GLW",
+    "VRT",
+    "CNC",
+    "CAT",
+    "HPE",
+    "JBHT",
+    "VLO",
+    "CF"
+  ],
+  "selected_tickers": [
+    "TER",
+    "GLW",
+    "VRT",
+    "CAT",
+    "HPE",
+    "VLO",
+    "CF",
+    "CNC",
+    "MRNA",
+    "JBHT"
+  ],
+  "weights": {
+    "TER": 0.1,
+    "GLW": 0.1289837545365148,
+    "VRT": 0.1289837545365148,
+    "CAT": 0.1289837545365148,
+    "HPE": 0.1289837545365148,
+    "VLO": 0.1289837545365148,
+    "CF": 0.1289837545365148,
+    "CNC": 0.05983900057767528,
+    "MRNA": 0.03649276142011104,
+    "JBHT": 0.02976571078312483
+  },
+  "sectors": {
+    "TER": "Information Technology",
+    "GLW": "Information Technology",
+    "VRT": "Industrials",
+    "CAT": "Industrials",
+    "HPE": "Information Technology",
+    "VLO": "Energy",
+    "CF": "Materials",
+    "CNC": "Health Care",
+    "MRNA": "Health Care",
+    "JBHT": "Industrials"
+  },
+  "momentum": {
+    "TER": 199.6324386919448,
+    "GLW": 169.97160588340338,
+    "VRT": 157.42839641035798,
+    "CAT": 126.71922733115737,
+    "HPE": 110.67632898632154,
+    "VLO": 82.13793136351764,
+    "CF": 40.53979052929471,
+    "CNC": 132.40165472039834,
+    "MRNA": 171.55926133863406,
+    "JBHT": 96.0454452493691
+  },
+  "optimization": {
+    "method": "max_sharpe",
+    "ret": 0.38731420238831493,
+    "vol": 0.25096529527699507,
+    "sharpe": 1.34406712297019,
+    "max_weight_bound": 0.15,
+    "dropped_low_weight": {},
+    "n_stage2": 10,
+    "n_final": 10,
+    "weight_floor_applied": false,
+    "turnover_penalty_applied": true,
+    "turnover_lambda": 0.0015,
+    "turnover_shrink_gamma": 0.05,
+    "turnover_before": 0.252177,
+    "turnover_after": 0.013976,
+    "deadband": {
+      "deadband_threshold": 0.025,
+      "locked": {
+        "GLW": {
+          "current": 0.128984,
+          "target": 0.130148,
+          "delta": 0.001165
+        },
+        "VRT": {
+          "current": 0.128984,
+          "target": 0.130148,
+          "delta": 0.001165
+        },
+        "CAT": {
+          "current": 0.128984,
+          "target": 0.130148,
+          "delta": 0.001165
+        },
+        "HPE": {
+          "current": 0.128984,
+          "target": 0.130148,
+          "delta": 0.001165
+        },
+        "VLO": {
+          "current": 0.128984,
+          "target": 0.130148,
+          "delta": 0.001165
+        },
+        "CF": {
+          "current": 0.128984,
+          "target": 0.130148,
+          "delta": 0.001165
+        },
+        "TER": {
+          "current": 0.1,
+          "target": 0.093065,
+          "delta": -0.006935
+        },
+        "CNC": {
+          "current": 0.059839,
+          "target": 0.059839,
+          "delta": 0.0
+        },
+        "MRNA": {
+          "current": 0.036493,
+          "target": 0.036493,
+          "delta": 0.0
+        },
+        "JBHT": {
+          "current": 0.029766,
+          "target": 0.029713,
+          "delta": -5.3e-05
+        }
+      },
+      "adjusted": true,
+      "pre_turnover": 0.013974930453267479,
+      "post_turnover": 0.0
+    }
+  },
+  "benchmark": {
+    "timestamp": "2026-08-02T21:06:37.100382",
+    "trading_env": "PROD",
+    "period_start": "2026-08-02T18:01:52.070213",
+    "period_end": "2026-08-02T21:06:37.100382",
+    "strategy_return": null,
+    "spy_return": 0.010961845778870494,
+    "alpha": null,
+    "strategy_equity": 100000.0,
+    "spy_price": 747.030029296875,
+    "benchmark": "SPY",
+    "beat_spy": false
+  }
+}
